@@ -45,21 +45,6 @@ toc: false
     </div>
   </div>
 
-  <!-- Shannon --------------------------------------------------->
-  <div style="flex: 1 1 300px; max-width: 300px; text-align: center; margin: 10px;">
-    <img src="{{ '/assets/images/shannon-bio.jpg' | relative_url }}" alt="Shannon Conover"
-         style="width: 200px; height: 200px; object-fit: cover; border-radius: 50%;">
-    <div>
-      <strong>Shannon&nbsp;Conover</strong><br>
-      <em>SJS Committee Member</em><br>
-      Shannon is a Licensed Clinical Social Worker in private practice, specializing in integration
-      therapy for clients undergoing ketamine treatment. Passionate about psychedelics’ transformative
-      potential, she advocates for creating safe, trauma-informed environments to support individuals
-      exploring altered states of consciousness. She will serve on the Safe Journey Sanctum committee,
-      working alongside Elizabeth to provide a comprehensive model of care.
-    </div>
-  </div>
-
   <!-- Elizabeth ------------------------------------------------->
   <div style="flex: 1 1 300px; max-width: 300px; text-align: center; margin: 10px;">
     <img src="{{ '/assets/images/liz-bio-3.png' | relative_url }}" alt="Elizabeth Wells"
