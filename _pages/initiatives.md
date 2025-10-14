@@ -32,5 +32,5 @@ A community hub with in-person events that foster discussions of the profound im
 {: .text-center}
 Compassionate, evidence-based peer support and overdose prevention at festivals and live events. Using a multidisciplinary foundation, we create safe spaces for guests in crisis and train staff in harm reduction and Narcan use.
 {: .text-center}
-<span class="btn btn--disabled btn--large">Coming Soon</span>
+[Visit SJS](https://safejourneysanctum.org){: .btn .btn--info .btn--large}
 {: .text-center}
