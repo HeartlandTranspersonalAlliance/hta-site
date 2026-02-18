@@ -35,8 +35,8 @@ const rewriteHtml = (html, prefix) => {
 
 const rewriteCssOrJs = (content) => {
   return content
-    .replace(/\"\/_astro\//g, '"./_astro/')
-    .replace(/\'\/_astro\//g, "'./_astro/")
+    .replace(/"\/_astro\//g, '"./_astro/')
+    .replace(/'\/_astro\//g, "'./_astro/")
     .replace(/\(\/_astro\//g, '(./_astro/')
     .replace(/url\(\/_astro\//g, 'url(./_astro/');
 };
@@ -66,7 +66,9 @@ for (const file of files) {
 }
 
 const indexPath = path.join(offlineDir, 'index.html');
-const indexExists = await stat(indexPath).then(() => true).catch(() => false);
+const indexExists = await stat(indexPath)
+  .then(() => true)
+  .catch(() => false);
 if (indexExists) {
   console.log('Offline bundle ready at dist-offline/index.html');
 }

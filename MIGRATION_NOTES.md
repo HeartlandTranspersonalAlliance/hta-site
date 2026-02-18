@@ -1,6 +1,7 @@
 # HTA Migration Notes (Jekyll -> Astro)
 
 ## What was migrated
+
 - Site identity and metadata (`src/config.yaml`) now use Heartland Transpersonal Alliance + GitHub Pages defaults.
 - Global navigation and footer were rewritten for HTA pages and initiatives (`src/navigation.ts`).
 - Homepage redesigned for a modern nonprofit/corporate feel (`src/pages/index.astro`).
@@ -18,19 +19,23 @@
   - `public/images/hta/` (for Markdown post images)
 
 ## Content collection note
+
 The post loader now points to `src/data/post/hta` in `src/content/config.ts`.
 This avoids pulling AstroWind sample posts into HTA news.
 
 ## Next migration steps
+
 - Migrate any additional HTA posts from `hta-site/_posts/` into `src/data/post/hta/`.
 - Add any missing board member profile images/content as needed.
 - Optionally archive/remove unused AstroWind demo routes (`/services`, `/pricing`, `/homes/*`, `/landing/*`).
 
 ## Offline preview build
+
 - Run `npm run build:offline` to generate `dist-offline/`.
 - Open `dist-offline/index.html` directly from disk for file-based preview.
 
 ## GitHub Pages deploy
+
 - Workflow file: `.github/workflows/deploy-pages.yml`
 - Trigger: push to `main`
 - Deploy actions: `actions/configure-pages`, `actions/upload-pages-artifact`, `actions/deploy-pages`

@@ -1,9 +1,9 @@
 ---
 publishDate: 2025-01-09
 updateDate: 2025-01-09
-author: "Heartland Transpersonal Alliance"
-title: "Board Update: Ashley Bennett Elected as Secretary and Director of Marketing"
-excerpt: "Earlier this week, Ashley Bennett was elected as Secretary and Director of Marketing for the Heartland Transpersonal Alliance."
+author: 'Heartland Transpersonal Alliance'
+title: 'Board Update: Ashley Bennett Elected as Secretary and Director of Marketing'
+excerpt: 'Earlier this week, Ashley Bennett was elected as Secretary and Director of Marketing for the Heartland Transpersonal Alliance.'
 image: ~/assets/images/hta/ashley-bio.jpg
 category: News
 tags:
