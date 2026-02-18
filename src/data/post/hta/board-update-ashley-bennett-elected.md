@@ -28,4 +28,4 @@ With this change, **Dr. Christine Ziemer** transitioned to the role of **Executi
 
 This marks an important step for HTA as we expand leadership capacity and continue building responsible, community-centered programming.
 
-We are actively seeking additional board members. Visit [/board/](/board/) to learn more and [/board-app/](/board-app/) to apply.
+We are actively seeking additional board members. Visit [board details](../../board/) to learn more and [board application](../../board-app/) to apply.

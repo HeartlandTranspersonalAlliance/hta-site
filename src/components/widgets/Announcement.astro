@@ -1,8 +1,12 @@
+---
+import { getPermalink } from '~/utils/permalinks';
+---
+
 <div
   class="text-sm bg-slate-900 text-slate-100 hidden md:flex gap-1 overflow-hidden px-3 py-2 relative text-ellipsis whitespace-nowrap"
 >
   <span class="bg-slate-100 text-slate-900 font-semibold px-1 py-0.5 text-xs inline-block">HTA</span>
-  <a href="/initiatives" class="hover:underline font-medium"
+  <a href={getPermalink('/initiatives')} class="hover:underline font-medium"
     >Community, education, harm reduction, and integration in Kansas City »</a
   >
 </div>

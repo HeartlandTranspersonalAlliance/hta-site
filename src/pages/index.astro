@@ -6,6 +6,7 @@ import Features from '~/components/widgets/Features.astro';
 import Content from '~/components/widgets/Content.astro';
 import BlogLatestPosts from '~/components/widgets/BlogLatestPosts.astro';
 import CallToAction from '~/components/widgets/CallToAction.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 import heroImage from '~/assets/images/hta/hero-image.jpg';
 
@@ -24,11 +25,11 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Explore Initiatives',
-        href: '/initiatives',
+        href: getPermalink('/initiatives'),
       },
       {
         text: 'Meet the Board',
-        href: '/board',
+        href: getPermalink('/board'),
       },
     ]}
     image={{ src: heroImage, alt: 'Heartland Transpersonal Alliance' }}
@@ -96,7 +97,7 @@ const metadata = {
       },
     ]}
     image={{ src: heroImage, alt: 'HTA initiatives' }}
-    callToAction={{ text: 'View all initiatives', href: '/initiatives' }}
+    callToAction={{ text: 'View all initiatives', href: getPermalink('/initiatives') }}
   >
     <Fragment slot="content">
       HTA aligns multiple programs under one mission so members, partners, and community stakeholders can engage through
@@ -115,11 +116,11 @@ const metadata = {
       {
         variant: 'primary',
         text: 'Apply to the Board',
-        href: '/board-app',
+        href: getPermalink('/board-app'),
       },
       {
         text: 'Contact HTA',
-        href: '/contact',
+        href: getPermalink('/contact'),
       },
     ]}
     title="Help shape the next phase of HTA"

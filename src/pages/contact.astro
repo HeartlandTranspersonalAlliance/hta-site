@@ -2,6 +2,7 @@
 import Layout from '~/layouts/PageLayout.astro';
 import HeroText from '~/components/widgets/HeroText.astro';
 import Features2 from '~/components/widgets/Features2.astro';
+import { getPermalink } from '~/utils/permalinks';
 
 const metadata = {
   title: 'Contact',
@@ -13,7 +14,7 @@ const metadata = {
     tagline="Contact"
     title="Connect with Heartland Transpersonal Alliance"
     subtitle="For partnerships, community programming, or board-related inquiries, reach out through the channels below."
-    callToAction={{ text: 'Apply for Board', href: '/board-app' }}
+    callToAction={{ text: 'Apply for Board', href: getPermalink('/board-app') }}
   />
 
   <Features2
