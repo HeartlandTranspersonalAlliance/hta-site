@@ -5,7 +5,7 @@ permalink: /
 excerpt: "The Heartland Transpersonal Alliance is a non-profit organization committed to fostering community, education, harm reduction, and integration around the safe, responsible exploration of consciousness."
 header:
   overlay_color: "#000"
-  overlay_filter: "0.5"
+  overlay_filter: "0.6"
   overlay_image: /assets/images/hero-image.jpg
   actions:
     - label: "Learn More"
